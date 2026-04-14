@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Detalle de Equipo</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="lista.html">
+      ← Equipos
+    </a>
+  </div>
+</nav>
+
+<div class="container mt-4">
+
+  <div class="row">
+
+    <!-- INFO PRINCIPAL -->
+    <div class="col-md-8">
+
+      <div class="card shadow-sm">
+
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+          <h5 class="mb-0">Detalle del Equipo</h5>
+
+          <span class="badge bg-success">Activo</span>
+        </div>
+
+        <div class="card-body">
+
+          <div class="row mb-3">
+
+            <div class="col-md-6">
+              <p><strong>ID:</strong> 1</p>
+              <p><strong>Nombre:</strong> Laptop Dell Latitude</p>
+              <p><strong>Marca:</strong> Dell</p>
+              <p><strong>Modelo:</strong> Latitude 5420</p>
+            </div>
+
+            <div class="col-md-6">
+              <p><strong>N° Serie:</strong> DL-5420-99821</p>
+              <p><strong>Estado:</strong> Operativo</p>
+              <p><strong>Ubicación:</strong> Oficina Central</p>
+              <p><strong>Fecha registro:</strong> 2026-04-14</p>
+            </div>
+
+          </div>
+
+          <hr>
+
+          <h6>Observaciones</h6>
+          <p class="text-muted">
+            Equipo asignado al área de sistemas. En buen estado, sin incidencias reportadas.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ACCIONES -->
+    <div class="col-md-4">
+
+      <div class="card shadow-sm mb-3">
+
+        <div class="card-header bg-secondary text-white">
+          Acciones
+        </div>
+
+        <div class="card-body d-grid gap-2">
+
+          <a href="editar.html" class="btn btn-warning">
+            <i class="bi bi-pencil"></i> Editar
+          </a>
+
+          <button class="btn btn-primary">
+            <i class="bi bi-person-plus"></i> Asignar
+          </button>
+
+          <button class="btn btn-danger">
+            <i class="bi bi-trash"></i> Eliminar
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- ESTADO RAPIDO -->
+      <div class="card shadow-sm">
+
+        <div class="card-header bg-dark text-white">
+          Estado del equipo
+        </div>
+
+        <div class="card-body">
+
+          <p><strong>Condición:</strong> <span class="badge bg-success">Bueno</span></p>
+          <p><strong>Uso:</strong> Activo</p>
+          <p><strong>Mantenimiento:</strong> No requerido</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- HISTORIAL -->
+  <div class="card mt-4 shadow-sm">
+
+    <div class="card-header bg-info text-white">
+      Historial del equipo
+    </div>
+
+    <div class="card-body table-responsive">
+
+      <table class="table table-hover">
+
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Acción</th>
+            <th>Usuario</th>
+            <th>Detalle</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <td>2026-04-10</td>
+            <td>Registro</td>
+            <td>Admin</td>
+            <td>Creación del equipo</td>
+          </tr>
+
+          <tr>
+            <td>2026-04-12</td>
+            <td>Asignación</td>
+            <td>Admin</td>
+            <td>Asignado a usuario JPerez</td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
